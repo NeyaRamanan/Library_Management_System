@@ -32,9 +32,9 @@ function Login() {
       {/* Left panel */}
       <div style={styles.leftPanel}>
         <div style={styles.brandMark}>
-          <div style={styles.logoIcon}>📖</div>
+          <div style={styles.logoIcon}>🐝</div>
           <div>
-            <div style={styles.brandName}>LibraryOS</div>
+            <div style={styles.brandName}>BookHive</div>
             <div style={styles.brandTagline}>Library Management System</div>
           </div>
         </div>

@@ -43,6 +43,30 @@ function Dashboard() {
   return (
     <div className="page">
 
+      {/* BookHive Title Banner */}
+      <div style={{
+        background: "linear-gradient(135deg, #1e2a3a 0%, #2563eb 100%)",
+        borderRadius: "var(--radius-lg)",
+        padding: "40px 24px",
+        textAlign: "center",
+        marginBottom: "28px",
+      }}>
+        <h1 style={{
+          fontFamily: "'Bagel Fat One', sans-serif",
+          fontSize: "46px",
+          fontWeight: 400,
+          margin: 0,
+          letterSpacing: "0.01em",
+        }}>
+          <span style={{ color: "#ffffff" }}>Book</span>
+          <span style={{ color: "#f0c14b" }}>Hive</span>
+          <span style={{ fontSize: "34px", marginLeft: "8px" }}>🐝</span>
+        </h1>
+        <p style={{ fontSize: "14px", color: "rgba(255,255,255,0.7)", marginTop: "10px" }}>
+          Your library, fully organized
+        </p>
+      </div>
+
       {/* Header */}
       <div style={{ marginBottom: "28px" }}>
         <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", flexWrap: "wrap", gap: "12px" }}>

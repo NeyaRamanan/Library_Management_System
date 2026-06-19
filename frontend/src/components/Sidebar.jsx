@@ -27,10 +27,10 @@ function Sidebar() {
     <div style={styles.sidebar}>
       {/* Logo */}
       <div style={styles.logo}>
-        <div style={styles.logoIcon}>📖</div>
+        <div style={styles.logoIcon}>🐝</div>
         <div>
-          <div style={styles.logoText}>LibraryOS</div>
-          <div style={styles.logoSub}>Management System</div>
+          <div style={styles.logoText}>BookHive</div>
+          <div style={styles.logoSub}>Library Management</div>
         </div>
       </div>
 
